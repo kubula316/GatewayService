@@ -1,13 +1,11 @@
-Część aplikacji webowej kursów dla studentów:
 
-Serwis ten jest odpowiedzialny za przekierowywanie ruchu do poszczególnych serwisów.
+Part of the Web Application for Student Courses:
 
-Przykłady użycia:
-LOGOWANIE
-http://localhost:9000/student-service/auth/authenticate
-REJESTRACJA
-http://localhost:9000/student-service/auth/register
-GET COURSES
-http://localhost:9000/course-service/courses
+This service is responsible for routing traffic to individual services.
 
-Dzięki gatewayu możemy wywoływać endpointy po nazwie serwisu.
+Examples of use:
+
+LOGIN: http://localhost:9000/student-service/auth/authenticate
+REGISTRATION: http://localhost:9000/student-service/auth/register
+GET COURSES: http://localhost:9000/course-service/courses
+Thanks to the gateway, we can invoke endpoints using the service name.
