@@ -1,3 +1,4 @@
+![diagram](https://github.com/user-attachments/assets/432ff00d-dc00-42be-ad02-127dff713bbf)
 
 Part of the Web Application for Student Courses:
 
